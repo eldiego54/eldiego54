@@ -1,4 +1,15 @@
-*  {
-        
-      background-color:blue;
+ body {
+        background-color:darksalmon;
       }
+
+h1 {
+     font-size: 12;
+     text-align: justify;
+     color: aqua;
+}
+h2 {
+      background-color:coral;
+      font-family: 'Times New Roman';
+      font-style: oblique;
+}
+    
