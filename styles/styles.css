@@ -1,0 +1,62 @@
+
+/*Hoja de estilos principal para todas las paginas*/
+
+body {
+        background-color:grey;
+      }
+
+h1{
+     font-size: 12;
+     text-align: justify;
+     color: aqua;
+}
+h2 {
+      background-color:coral;
+      font-family: 'Times New Roman';
+      font-style: oblique;
+}
+    
+/*Estilos para datos footer*/
+
+.datos_empresa {
+    /*list-style: none;*/
+    /*margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:end;*/
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+}
+
+
+.orden{
+      position: absolute;
+      margin-top: 160px;
+
+
+}
+ /*Estilos pagina Productos*/
+ 
+ .titulos {
+        font-size: 20px;
+        font-family: sans-serif;
+        height: 70px;
+        font-weight: bold;
+      }
+
+.cortes {
+      position: absolute;
+
+
+}
+
+/*Estilos pagina trabaje_con_nosotros*/
+
+ .work {
+
+      font-family: Verdana;
+      color: brown;
+      align-items: center;
+      font-weight: bold;
+ }
+

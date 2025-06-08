@@ -1,0 +1,93 @@
+
+/* Fijacion de imagen de background*/
+* {
+    margin: 0;
+}
+
+.image {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/images/empresa_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.home {
+    background-color:rgba(0, 0, 0,0.2);
+    width: 100%;
+    height: 100vh;
+}
+
+.solid {
+    background-color:white;
+    width: 100%;
+    height: 100vh;
+}
+
+.transparent {
+    background-color: rgba(0, 0, 255,0.3);
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*Posicionamiento menu*/
+
+nav{
+    background-color:grey;
+    position: fixed;
+    padding: 20px;
+    height: 11px; 
+    width: 100%;
+    top: 13px;
+
+}
+
+            
+.logo{
+    position:absolute;
+    top:2px;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    position:relative;
+    font-size: 17px;
+    left: 650px;
+    
+}
+
+a{
+    text-decoration: none ;
+    color: white;
+}
+
+.calidad {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    /*font-weight: <weight>;*/
+    font-style: normal;
+    font-size: 700%;
+    color: white;
+    position: absolute;
+    text-align:center;
+    top: 200px;
+}
+
+h3{
+    font-family: "Edu VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    /*font-weight: <weight>;*/
+    font-style: normal;
+    font-size: 200%;
+    color: white;
+    position: absolute;
+    text-align:center;
+    top: 400px;
+
+}

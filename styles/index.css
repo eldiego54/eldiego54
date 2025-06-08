@@ -1,0 +1,47 @@
+
+/*Estilos para pagina principal*/
+
+.title_1 {
+ font-size: 600%;
+ font-family: Verdana;
+ color: beige;
+ font-weight:bold;
+ text-align: center;
+}
+
+.low_title {
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/images/background.jpg);
+    background-repeat: no-repeat;
+   /* background-size: cover;*/
+    background-position: center;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    
+}
+
+/*.filter {
+    /*font-size: 600%;
+    font-family: Verdana;
+    color: beige;
+    font-weight:bold;
+    text-align: center;
+    
+    transition: 0.5s;
+}*/
+
+
+
+
+
+  

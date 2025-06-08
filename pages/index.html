@@ -8,37 +8,36 @@
     <meta name="description" content="Somos una empresa argentina con productos de primera calidad mundial">
     <meta name="keywords" content="frigorifico,carnes,vacas,animales">
     <title>Argentina Meats </title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/home.css">
   </head>
 
   <body>
     <header>
-      <div>
-        <img src="./imagenes/fotovaca.jpg" alt="foto de una vaca" width="800">
-        <br>
-        <br>
-        <p class="title_1">Frigorifico Argentina Meats</p>
-      </div>
-      <br>
-      <p class="low_title">Las mejores carnes premium en un solo lugar</p>
-      <nav>
+      <nav>    <!--Menu de navegacion-->
         <ul>
-          <!--Menu de navegacion-->
-          <br><br>
-          <li><a href="./index.html" target="_blank">Quienes somos</a></li>
-          <li><a href="./nuestras_plantas.html" target="_blank">Nuestras plantas</a></li>
-          <li><a href="servicios.html" target="_blank">Servicios</a></li>
-          <li><a href="./productos.html" target="_blank">Nuestros productos</a></li>
-          <li><a href="./trabaje_con_nosotros.html" target="_blank">Trabaje con nosotros</a></li>
+          <div class="logo">
+                <img src="../assets/images/logo.jpg" alt="logo_marca" width="100"wid>
+            </div>
+            <li><a href="./home.html" target="_blank">Home</a></li>
+            <li><a href="./index.html" target="_blank">Nosotros</a></li>
+            <li><a href="./nuestras_plantas.html" target="_blank">Plantas</a></li>
+            <li><a href="./servicios.html" target="_blank">Servicios</a></li>
+            <li><a href="./productos.html" target="_blank">Productos</a></li>
+            <li><a href="./trabaje_con_nosotros.html" target="_blank">Contactenos</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <!-- Contenido central que cambia de pagina en pagina -->
+      <div class="container">
+         <p class="title_1">Frigorifico Argentina Meats</p>
+      </div>
+      <br>
+      <p class="low_title">Las mejores carnes premium en un solo lugar</p>
       <br>
       <h1> Por que elegir nuestros productos:</h1>
-      </h1>
       <article>
         <br />
         <h2>
@@ -63,15 +62,13 @@
         </section>
       </article>
     </main>
-    <footer>
-      <br />
-      <br />
-      <ul class="datos_empresa">
-        <li>Plantas/ Ubicacion</li>
-        <li>Direccion:</li>
-        <li>Telefonos:</li>
-        <li>E-mail:</li>
-      </ul>
+    <footer class="datos_empresa">
+          <ul>
+            <li>Plantas/ Ubicacion</li>
+            <li>Direccion:</li>
+            <li>Telefonos:</li>
+            <li>E-mail:</li>
+          </ul>
     </footer>
   </body>
 </html>
