@@ -1,12 +1,23 @@
 
 /*Estilos para pagina principal*/
 
-p {
+p.title_1 {
  font-size: 600%;
  font-family: Verdana;
  color: beige;
  font-weight:bold;
  text-align: center;
 }
+
+p.low_title {
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: sans-serif;
+
+}
+
+
+
 
   
