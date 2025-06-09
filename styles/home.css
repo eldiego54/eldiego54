@@ -27,11 +27,17 @@
     height: 100vh;
 }
 
-.transparent {
+.tarjeta_1 {
+    background-color: rgb(0, 0, 255);
+    width: 100%;
+            
+}
+
+/*.transparent {
     background-color: rgba(0, 0, 255,0.3);
     width: 100%;
     height: 100vh;
-}
+}*/
 
 
 /*Posicionamiento menu*/
@@ -45,8 +51,7 @@ nav{
     top: 13px;
 
 }
-
-            
+           
 .logo{
     position:absolute;
     top:2px;
@@ -70,7 +75,7 @@ a{
 .calidad {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    /*font-weight: <weight>;*/
+    font-weight:100;
     font-style: normal;
     font-size: 700%;
     color: white;
@@ -82,12 +87,11 @@ a{
 h3{
     font-family: "Edu VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
-    /*font-weight: <weight>;*/
+    font-weight:300;
     font-style: normal;
     font-size: 200%;
     color: white;
-    position: absolute;
+    position: relative;
     text-align:center;
     top: 400px;
-
 }
