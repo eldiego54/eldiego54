@@ -12,65 +12,26 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: absolute;
 }
-
+    
 
 .home {
     background-color:rgba(0, 0, 0,0.2);
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
-
 .solid {
-    background-color:white;
+    background-color: white;
     width: 100%;
-    height: 100vh;
+    height: 20vh;
 }
-
-.tarjeta_1 {
-    background-color: rgb(0, 0, 255);
+.transparent {
+    background-color: rgba(169, 169, 169,0.5);
     width: 100%;
-            
+    height: 10vh;
 }
 
-/*.transparent {
-    background-color: rgba(0, 0, 255,0.3);
-    width: 100%;
-    height: 100vh;
-}*/
-
-
-/*Posicionamiento menu*/
-
-nav{
-    background-color:grey;
-    position: fixed;
-    padding: 20px;
-    height: 11px; 
-    width: 100%;
-    top: 13px;
-
-}
-           
-.logo{
-    position:absolute;
-    top:2px;
-    
-}
-li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-    position:relative;
-    font-size: 17px;
-    left: 650px;
-    
-}
-
-a{
-    text-decoration: none ;
-    color: white;
-}
 
 .calidad {
     font-family: "Playfair Display", serif;
@@ -81,7 +42,7 @@ a{
     color: white;
     position: absolute;
     text-align:center;
-    top: 200px;
+    top: 15%;
 }
 
 h3{
@@ -93,5 +54,46 @@ h3{
     color: white;
     position: relative;
     text-align:center;
-    top: 400px;
+    top: 50%;
+
+}
+/*------------------------------*/
+
+.img_1 {
+    background-image: url(../assets/images/tarjeta_1.avif);
+    width: 25%;
+    height: 400px;
+    margin: auto;
+    
+
+}
+.img_2 {
+    background-image: url(../assets/images/tarjeta_2.jpg);
+    width: 25%;
+    height: 400px;
+
+}
+.img_3 {
+    background-image: url(../assets/images/tarjeta_3.jpg);
+    width: 25%;
+    height: 400px;
+}
+.img_4 {
+    background-image: url(../assets/images/tarjeta_4.jpg);
+    width: 25%;
+    height: 400px;
+}
+
+.image_prop {
+    background-color: rgba(128, 128, 128,0.5);
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.text_prop {
+    font-family: cursive;
+    color: white;
+    font-size: 200%;
 }
